@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+        body{
+            background-image: url(https://miro.medium.com/max/3840/1*VIUoRFW1olJl9euJkP2dDg.jpeg);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+        }
+        #container{
+            width: 80%;
+            margin: 0 auto;
+            background: white;
+
+        li{
+            width: 90%;
+            border-bottom: 3px solid black;
+        }
+        ol{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        legend{
+            font-weight: bold;
+        }
+        p{
+            margin-left: 150px;
+            width: 70%;
+            text-align: justify;
+        }
+        hr{
+            width: 90%;
+            border-bottom: 3px solid black;
+            margin-left: 10px;
+        }
+        fieldset{
+            border: 3px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>PROGRAMAÇÃO</h1>
+        <ol>
+            <h2>Algumas linguagens</h2>
+                <hr>
+                <li>C#</li>
+                    <p>C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela máquina virtual Common Language Runtime (CLR). C# é uma das linguagens projetadas para funcionar na Common Language Infrastructure da plataforma</p>
+                <hr>
+                <li>PHYTON</li>
+                    <p>Python é uma linguagem de programação de alto nível,[5] interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.[1] Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem, como um todo, não é formalmente especificada. O padrão de facto é a implementação CPython</p>
+                <hr>
+                <li>JAVA</li>
+                    <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. Diferente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (Java Virtual Machine, mais conhecida pela sua abreviação JVM). A linguagem de programação Java é a linguagem convencional da Plataforma Java, mas não é a sua única linguagem. J2ME Para programas e jogos de computador, celular, calculadoras, ou até mesmo o rádio do carro.</p>
+                <hr>
+        </ol>
+
+            <p id="text">Gostaria de saber mais? preencha o cadratro abaixo e receba mais informações.</p>
+        </ul>
+        <form action="pagina.php" method="GET">
+            <fieldset>
+                    <legend>CADASTRO</legend>
+
+                    <label>Nome e Sobrenome: </label> <br>
+                            <input id="nome" type="name" name="nome_sobrenome" placeholder="Ex. João da Silva"> <br><br>
+                        <label for="data" >Data Nascimento: </label> <br>
+                            <input id="data" type="date" name="Data_de_Nascimento" ><br><br>
+                        <label for="sexo, sexo2" >Sexo: </label> <br>
+                            <input id="sexo" type="radio" name="sexo" value="masculino" checked> Masculino <br>
+                            <input id="sexo2" type="radio" name="sexo" value="feminino"> Feminino <br><br>
+
+                            <input id="email" type="checkbox" name="email"> <label for="email" > Desejo Receber notícias por E-mail </label> <br><br>
+                        <button ><a href="http://revistapegn.globo.com/Revista/Pegn/foto/0,,69817895,00.jpg">Criar seu Cadastro </a></button> <br><br>
+
+                        <label> Fique Tranquilo, nosso site é seguro </label> <br><br>
+                        <label>Já tem cadastro? </label> <a href="http://revistapegn.globo.com/Revista/Pegn/foto/0,,69817895,00.jpg"> Entrar</a>
+            </fieldset>
+        </form>
+        <p>&copy; Copyright 2021</p>
+        </div>
+</body>
+</html>
